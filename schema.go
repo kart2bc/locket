@@ -5,8 +5,8 @@ import (
 	"time"
 )
 
-const DefaultSessionTTL = 15 * time.Second
-const DefaultSessionTTLInSeconds int64 = 15
+const DefaultSessionTTL = 30 * time.Second
+const DefaultSessionTTLInSeconds int64 = 30
 const MonitorRetryTime = 2 * time.Second
 const RetryInterval = 5 * time.Second
 const SQLRetryInterval = time.Second
